@@ -24,7 +24,7 @@
             <br>
             <div>
                 <label for="Tipo">Tipo:</label>
-                <input type="radio" name="tipo" id="tipo-entrada" value="entrada"<?php echo $row['tipo'] == 0 ? "checked" : ""?>>
+                <input type="radio" name="tipo" id="tipo-entrada" value="entrada"<?php echo $row['tipo'] == 0 ? "checked" : ""?> checked>
                 <span>Entrada</span>
                 <input type="radio" name="tipo" id="tipo-saida" value="saida"<?php echo $row['tipo'] == 0 ? "checked" : ""?>>
                 <span>Saída</span>
